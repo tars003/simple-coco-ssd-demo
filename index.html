@@ -1,0 +1,318 @@
+<!-- <link rel="stylesheet" href="./style.css"> -->
+<style>
+  body {
+  margin: 25px;
+}
+#main {
+  position: relative;
+  margin: 50px 0;
+}
+#main0, #main1, #main2, #main, #main3, #main4, #main5, #main6, #main7, #main8, #main9, #main10 {
+  position: relative;
+  margin: 50px 0;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#description {
+  margin-top: 20px;
+  width: 600px;
+}
+
+#description-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+</style>
+
+<body>
+  <div class="grid-container">
+
+  <div id="main">
+    <!-- <video id="video" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output"></canvas>
+    <video id="video" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video> -->
+
+    <video width="400" height="200" loop id="video" controls="true">
+        <source src="./v.mp4" type="video/mp4" />
+    </video>
+    <canvas id="output"></canvas>
+  </div>
+
+  <div id="main0">
+    <!-- <video id="video0" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output0"></canvas>
+    <video id="video0" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video> -->
+
+    <video width="400" height="200" loop id="video0" controls="true">
+        <source src="./v.mp4" type="video/mp4" />
+    </video>
+    <canvas id="output0"></canvas>
+  </div>
+
+  <div id="main1">
+    <!-- <video id="video1" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output1"></canvas>
+    <video id="video1" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video> -->
+
+    <video width="400" height="200" loop id="video1" controls="true">
+        <source src="./v.mp4" type="video/mp4" />
+    </video>
+    <canvas id="output1"></canvas>
+  </div>
+
+  <div id="main2">
+    <!-- <video id="video2" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output2"></canvas>
+    <video id="video2" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video> -->
+
+    <video width="400" height="200" loop id="video2" controls="true">
+        <source src="./v.mp4" type="video/mp4" />
+    </video>
+    <canvas id="output2"></canvas>
+  </div>
+
+  <div id="main3">
+    <!-- <video id="video3" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output3"></canvas>
+    <video id="video3" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video> -->
+
+    <video width="400" height="200" loop id="video3" controls="true">
+        <source src="./v.mp4" type="video/mp4" />
+    </video>
+    <canvas id="output3"></canvas>
+  </div>
+
+  <div id="main4">
+    <!-- <video id="video4" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output4"></canvas>
+    <video id="video4" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video> -->
+
+    <video width="400" height="200" loop id="video4" controls="true">
+        <source src="./v.mp4" type="video/mp4" />
+    </video>
+    <canvas id="output4"></canvas>
+  </div>
+
+  <div id="main5">
+    <!-- <video id="video5" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output5"></canvas>
+    <video id="video5" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video> -->
+
+    <!-- <video width="400" height="200" loop id="video5" controls="true">
+        <source src="./v.mp4" type="video/mp4" />
+    </video>
+    <canvas id="output5"></canvas> -->
+  </div>
+
+  <div id="main6">
+    <!-- <video id="video6" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output6"></canvas>
+    <video id="video6" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video> -->
+
+    <!-- <video width="400" height="200" loop id="video6" controls="true">
+        <source src="./v.mp4" type="video/mp4" />
+    </video>
+    <canvas id="output6"></canvas> -->
+  </div>
+
+  <div id="main7">
+    <!-- <video id="video7" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output7"></canvas>
+    <video id="video7" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video> -->
+
+    <!-- <video width="400" height="200" loop id="video7" controls="true">
+        <source src="./w.mp4" type="video/mp4" />
+    </video>
+    <canvas id="output7"></canvas> -->
+  </div>
+
+  <!-- <div id="main8">
+    <video id="video8" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output8"></canvas>
+    <video id="video8" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video>
+  </div> -->
+
+ <!--  <div id="main9">
+    <video id="video9" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output9"></canvas>
+    <video id="video9" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video>
+  </div> -->
+
+  <!-- <div id="main10">
+    <video id="video10" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      width: auto;
+      height: auto;
+      ">
+    </video>
+    <canvas id="output10"></canvas>
+    <video id="video10" playsinline style="
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      visibility: hidden;
+      width: auto;
+      height: auto;
+      ">
+    </video>
+  </div> -->
+
+</div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js"></script>
+<script src="index.js"></script>
